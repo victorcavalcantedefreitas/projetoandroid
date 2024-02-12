@@ -1,0 +1,18 @@
+@charset "UTF-8";
+
+@font-face {
+    font-family: 'tommy_bold';
+    src: url(//fontes/made_tommy/MADE\ TOMMY\ Bold_PERSONAL\ USE.otf);
+}
+
+/:root {
+    --cor1:  #00747C; 
+    --cor2:  #00BBC9; 
+    --cor3:  #CACACA;  
+    --cor4:  #878787; 
+    --cor5:  #202022;
+    --fontepadrao: 'tommy_bold',sans-serif;
+}
+h1 {
+    font-family: var(--fontepadrao);
+}
