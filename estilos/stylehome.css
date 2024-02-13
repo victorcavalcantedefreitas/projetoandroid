@@ -1,18 +1,71 @@
 @charset "UTF-8";
 
-@font-face {
-    font-family: 'tommy_bold';
-    src: url(//fontes/made_tommy/MADE\ TOMMY\ Bold_PERSONAL\ USE.otf);
-}
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
 
-/:root {
+:root {
     --cor1:  #00747C; 
-    --cor2:  #00BBC9; 
+    --cor2:  #4ee0eb; 
     --cor3:  #CACACA;  
     --cor4:  #878787; 
     --cor5:  #202022;
-    --fontepadrao: 'tommy_bold',sans-serif;
+    --fontepadrao: 'Poppins';
 }
+
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+header {
+    background-image: linear-gradient(30deg,#00747C,#4ee0eb);
+}
+
 h1 {
-    font-family: var(--fontepadrao);
+    font-family: 'Poppins';
+    text-align: center;;
+    color: #0d3032;
+}
+
+header p {
+    text-align: center;
+    font-size: 1.6em;
+    font-family: 'Poppins';
+    font-weight: 500;
+    color: #bcf4df;
+     text-shadow: 2px 3px 6px rgba(0, 0, 0, 0.34);;
+    border-color: #202022;
+}
+nav {
+    padding: 7px;
+}
+nav a {
+    padding: 5px;
+    text-decoration: none;
+    border-radius: 10px;
+    transition: 0.5s;
+    color: #202022;
+}
+nav a:hover {
+    background-color: #59d7e0;
+}
+
+
+
+main#hubnoticias {
+    margin: 0px auto 0px auto;
+    height: 500px;
+    width: 500px;
+}
+
+div.noticias {
+    width: 350px;
+    height: 100px;
+    padding: 0px auto 0px auto;
+    text-align: center;
+    background-color: #202022;
+    margin: 10px 0px 10px auto;
+}
+div.noticias > h3 {
+    text-align: center;
+    margin-top: 10px;
 }
