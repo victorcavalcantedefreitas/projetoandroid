@@ -49,23 +49,44 @@ nav a:hover {
     background-color: #59d7e0;
 }
 
-
-
 main#hubnoticias {
-    margin: 0px auto 0px auto;
-    height: 500px;
-    width: 500px;
+    margin: 50px auto 10px auto;
+    width: 1013px;
+    box-shadow: 3px 2px 3px rgba(0, 0, 0, 0.297);
+    border: 4px solid black;
+    border-radius: 10px;
+    align-items: center;
+    background: linear-gradient(to bottom,#00747C,#4ee0eb);
 }
 
-div.noticias {
-    width: 350px;
-    height: 100px;
-    padding: 0px auto 0px auto;
+div.caixa {
+    height: 150px;
+    width: 200px;
+    display: inline-block;
     text-align: center;
-    background-color: #202022;
-    margin: 10px 0px 10px auto;
-}
-div.noticias > h3 {
-    text-align: center;
+    border: 2px solid black;
+    margin-left: 30px; 
+    margin-bottom: 10px;
     margin-top: 10px;
+    border-radius: 10px;
+    paddin
 }
+
+div#noticiandroid {
+    background-image: url(../imagens/android.jpg);
+    
+}
+
+
+div.caixa > a {
+    margin-top: 50px;
+    font-family:'Poppins' ;
+    display: block;
+    text-decoration: none;
+    color: #69dfe6;
+    transition: 0.5s;
+    font-size: 30px;
+    background-color: #0d3032;
+}
+
+
