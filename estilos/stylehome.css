@@ -2,13 +2,15 @@
 
 @import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
 
+@import url('https://fonts.googleapis.com/css2?family=Titillium+Web:ital,wght@0,200;0,300;0,400;0,600;0,700;0,900;1,200;1,300;1,400;1,600;1,700&display=swap');
 :root {
-    --cor1:  #00747C; 
-    --cor2:  #4ee0eb; 
-    --cor3:  #CACACA;  
-    --cor4:  #878787; 
-    --cor5:  #202022;
-    --fontepadrao: 'Poppins';
+    --cor1:#00747C; 
+    --cor2:#4ee0eb; 
+    --cor3:#CACACA;  
+    --cor4:#878787; 
+    --cor5:#202022;
+    --fontepadrao:'Poppins';
+    --fonte2:'Titillium Web';
 }
 
 * {
@@ -25,7 +27,7 @@ header {
 }
 
 h1 {
-    font-family: 'Poppins';
+    font-family: var(--fonte2);
     text-align: center;;
     color: #0d3032;
     padding-top:40px ;
@@ -34,25 +36,30 @@ h1 {
 
 header p {
     text-align: center;
-    font-size: 1.6em;
-    font-family: 'Poppins';
+    font-size: 1.8em;
+    font-family: var(--fonte2);
     font-weight: 500;
     color: #bcf4df;
      text-shadow: 2px 3px 6px rgba(0, 0, 0, 0.34);;
     border-color: #202022;
     padding-top:15px ;
+    margin-bottom: 15px;
 }
 nav {
     padding: 7px;
+    background-color: #0d3032;
+    box-shadow: 3px 1px 4px rgba(0, 0, 0, 0.452);
+    border: 10px 10px 10px 10x;
 }
 nav a {
     padding: 5px;
     text-decoration: none;
     border-radius: 10px;
     transition: 0.5s;
-    color: #202022;
-    font-size: larger;
+    color: #7171f6;
+    font-size: 20px;
     font-family: 'Poppins',sans-serif;
+    margin-left: 20px;
 }
 nav a:hover {
     background-color: #59d7e0;
@@ -60,7 +67,7 @@ nav a:hover {
 
 main#hubnoticias {
     margin: 50px auto 10px 60px;
-    max-width: 1500;
+    max-width: 800px;
     min-width: 300px;
     border-radius: 10px;
     align-items: center;
