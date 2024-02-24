@@ -19,7 +19,9 @@
 }
 
 body {
-    background-color: #fdfbfb;
+    background-color: #00747C;
+    width: 1700px;
+    height: 713px;
 }
 
 header {
@@ -68,41 +70,65 @@ nav a:hover {
 }
 
 main {
-    margin: 150px auto 150px auto;
     text-align: center;
     height: 200px;
-    display: flexbox;
     width: 200px;
 }
 div#painelogin {
-    background-color: rgb(136, 133, 133);
-    width: 400px;
+    background-color: #33979c;
+    width: 600px;
     height: 300px;
     display: flex;
     flex-direction: column;
+    margin: auto;
+    margin-top: 100px;
 }
 div#painelogin > h2 {
-    margin-bottom: 4px;
     font-family: var(--fontepadrao);
-    
+    padding-top: 10px;
+    margin: 10px auto 0px auto;
 }
 input#email {
     height: 35px;
-    border-radius: 5px 5px 5px 5px;
-    width: 170px;
-    margin: 50px auto 0px ;
+    width: 240px;
+    border: 1px solid black;
+    border-radius: 3px;
+    margin: 50px auto 1px auto;
 }
 input#senha {
     height: 35px;
-    border-radius: 5px 5px 5px 5px;
+    width: 240px;
+    margin: 7px auto 1px auto;
     font-family: var(--fonte2);
-    width: 170px;
     background-color: #ffffff;
-    margin: 0px auto auto;
+    border-radius: 3px;
+    box-shadow: none;
+    border: 1px solid black;
 }
 
-input#email::placeholder {
+input#email::placeholder  {
     color: var(--cor1);
-    
+    position: relative;
+    left: 3px;
+}
+input#email:active {
+    border: none;
 }
 
+input#senha::placeholder  {
+    color: var(--cor1);
+    position: relative;
+    left: 3px;
+}
+
+button#botao{
+    width: 150px;
+    height: 30px;
+    margin: 20px auto 20px auto;
+    border-radius: 4px;
+    border: 1px solid black;
+    transition: 0.5s;
+}
+button#botao:active {
+    background-color: gray  ;
+}
